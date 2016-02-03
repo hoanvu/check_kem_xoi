@@ -12,9 +12,9 @@ from email.MIMEText import MIMEText
 
 def send_email(video):
     """Send email to me if new Kem Xoi video was released."""
-    sender = 'loaloa.test@gmail.com'
-    sender_pass = 't3stt3st@1198033'
-    receiver = 'vumaihoan@gmail.com'
+    sender = 'your_sender_email'
+    sender_pass = 'your_sender_email_pass'
+    receiver = 'your_receiver_email'
 
     email_body = "<h1>Kem Xoi <a href='{}'>video {}</a> was released.</h1><br />"\
         .format(video.link[0], video.number[0])
